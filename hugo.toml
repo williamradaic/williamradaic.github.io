@@ -1,0 +1,12 @@
+baseURL = 'https://williamradaic.github.io/'
+languageCode = 'en-us'
+title = 'William Radaic'
+theme = 'academinimal'
+sectionPagesMenu = "main"
+defaultContentLanguage = "en"
+
+[params]
+shortbio = "Pre-Doctoral Fellow in Economics"
+officeAddress = "Littauer Center 314, Cambridge, MA 02138"
+officeMapLink = "https://maps.app.goo.gl/TmUN9jNWEu4rSJKVA"
+logo = "profile_picture_0623.jpg"
