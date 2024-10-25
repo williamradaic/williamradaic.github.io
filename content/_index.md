@@ -20,7 +20,6 @@ I am especially interested in Behavioral Economics and Political Economy.
 Sao Paulo School of Economics -- Fundacao Getulio Vargas
 * **Bachelor of Law, 2023** \
 Law School, University of Sao Paulo
--->
 
 ---
 
@@ -48,9 +47,5 @@ Roman Law, 2019
 
 
 
-<!--
-## What's New
-
-[Poster](https://dl.acm.org/doi/pdf/10.1145/3548606.3563494) at CCS 2022 on mitigating the bandwidth bottleneck at the leader server in
-leader-based BFT protocols using erasure codes. Working on a full implementation.
 -->
+
