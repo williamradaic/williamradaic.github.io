@@ -1,0 +1,24 @@
+{{ define "main" -}}
+
+<h2 id="bio">About me</h2>
+{{ with .GetPage "/sections/aboutme.md" }}
+{{ .Content }}
+{{ end }}
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "pubcnt" 0 }}
+
+
+{{ with .Site.Data.working_papers }}
+<hr>
+<h2 id="workingpapers">Working Papers</h2>
+{{ range . }}
+{{ range .works }}
+{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ $scratch.Add "pubcnt" 1 }}   
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ .Content }}
+{{- end }}
