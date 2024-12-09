@@ -3,7 +3,7 @@ baseURL = 'https://williamradaic.github.io/'
 languageCode = 'en-us'
 title = 'William Radaic'
 theme = 'academinimal'
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 defaultContentLanguage = "en"
 
 [params]
