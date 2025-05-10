@@ -8,6 +8,7 @@ weight = 3
 
 Here are a few photos I've taken.
 
+<br>
 
 
 ![Widener Library, Harvard Yard. 08 May, 2025.](/photos/WidenerSide-2025-05-08.JPG)
