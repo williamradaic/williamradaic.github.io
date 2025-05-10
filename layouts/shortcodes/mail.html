@@ -1,0 +1,11 @@
+<span id="email"></span>
+<noscript>
+  <img src="icons/at-sign.svg" alt="Enable JavaScript to view email">
+</noscript>
+<script>
+  const encoded = "cmFkYWljQGJlcmtlbGV5LmVkdQ==";
+  const email = atob(encoded);
+    const link = `<a href="mailto:${email}">${email}.</a>`;
+  document.getElementById("email").innerHTML = link;
+</script>
+
