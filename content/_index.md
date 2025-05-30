@@ -4,6 +4,8 @@ menu = "main"
 weight = 1
 +++
 
+<h1 class="visually-hidden">{{William Radaic}}</h1>
+
 {{< twocol >}}
 
 Hi! I am an incoming PhD student in Economics at UC Berkeley. My current research focus is on theoretically-inclined Behavioral Economics and Political Economy.
