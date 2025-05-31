@@ -4,11 +4,9 @@ menu = "main"
 weight = 1
 +++
 
-<head>
-<meta name="google-site-verification" content="Ds_xyb7RIPbmbK5IsKHb9nllWTRplTXU4UAH2qXAz0Y" />
-</head>
 
 <h1 class="visually-hidden">{{William Radaic}}</h1>
+
 
 {{< twocol >}}
 
