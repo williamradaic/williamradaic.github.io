@@ -11,9 +11,9 @@ Here are some photos I've taken.
 <br>
 
 
-![Sather Tower, UC Berkeley. 06 August, 2025.](/photos/Campanile-2025-08-25.JPG)
+![Sather Tower, UC Berkeley. 06 August, 2025.](/photos/BerkeleyCampanile-2025-08-25.JPG)
 
-<div style="text-align: center;">
+<div style="text-align: center;"> 
 <p>
 <em>Sather Tower, UC Berkeley. 06 August, 2025.</em></p>
 </div>
