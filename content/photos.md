@@ -6,9 +6,19 @@ weight = 3
 
 # Some of my photos 
 
-Here are a few photos I've taken.
+Here are some photos I've taken.
 
 <br>
+
+
+![Sather Tower, UC Berkeley. 06 August, 2025.](/photos/Campanile-2025-08-25.JPG)
+
+<div style="text-align: center;">
+<p>
+<em>Sather Tower, UC Berkeley. 06 August, 2025.</em></p>
+</div>
+<br>
+
 
 
 ![Widener Library, Harvard Yard. 08 May, 2025.](/photos/WidenerSide-2025-05-08.JPG)
@@ -31,7 +41,7 @@ Here are a few photos I've taken.
 
 <div style="text-align: center;">
 <p>
-<em>Leaving Littauer Center. May 07, 2025.</em></p>
+<em>Leaving Littauer Center. 07 May, 2025.</em></p>
 </div>
 <br>
 
