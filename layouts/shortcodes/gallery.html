@@ -1,0 +1,170 @@
+<!-- GLightbox CSS and JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+
+<style>
+  .gallery-wrapper {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 2.75rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+
+  .gallery {
+    column-count: 4;
+    column-gap: 1rem;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1200px) {
+    .gallery {
+      column-count: 3;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .gallery {
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .gallery-wrapper {
+      padding: 0 1rem;
+    }
+    .gallery {
+      column-count: 1;
+    }
+  }
+
+  .gallery-item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.25rem;
+  }
+
+  .gallery-item a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.02);
+  }
+
+  .gallery-item .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.75rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-item:hover .caption {
+    opacity: 1;
+  }
+
+  .caption .title {
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+
+  .caption .meta {
+    font-family: var(--font-secondary);
+    font-size: 0.75rem;
+    opacity: 0.9;
+  }
+
+  .caption .meta .location::after {
+    content: " · ";
+  }
+
+  /* GLightbox customization */
+  .gslide-description {
+    background: transparent !important;
+  }
+
+  .gslide-description .gdesc-inner {
+    padding: 1rem !important;
+  }
+
+  .gdesc-inner .gslide-title {
+    font-family: var(--font-main) !important;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .gdesc-inner .gslide-desc {
+    font-family: var(--font-secondary) !important;
+    font-size: 0.9rem !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+  }
+</style>
+
+<div class="gallery-wrapper">
+<div class="gallery">
+  {{ $lines := split .Inner "\n" }}
+  {{ range $lines }}
+    {{ $line := trim . " \t\r\n" }}
+    {{ if $line }}
+      {{ $parts := split $line "|" }}
+      {{ if ge (len $parts) 4 }}
+        {{ $path := trim (index $parts 0) " " }}
+        {{ $title := trim (index $parts 1) " " }}
+        {{ $location := trim (index $parts 2) " " }}
+        {{ $date := trim (index $parts 3) " " }}
+        <div class="gallery-item">
+          <a href="{{ $path }}"
+             class="glightbox"
+             data-gallery="photos"
+             data-title="{{ $title }}"
+             data-description="{{ $location }} · {{ $date }}">
+            <img src="{{ $path }}" alt="{{ $title }}" loading="lazy">
+            <div class="caption">
+              <div class="title">{{ $title }}</div>
+              <div class="meta">
+                <span class="location">{{ $location }}</span>
+                <span class="date">{{ $date }}</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true,
+      autoplayVideos: true
+    });
+  });
+</script>
