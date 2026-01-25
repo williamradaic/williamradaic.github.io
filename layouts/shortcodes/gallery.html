@@ -10,7 +10,6 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    margin-top: 2.75rem;
     padding: 0 2rem;
     box-sizing: border-box;
   }
@@ -100,6 +99,17 @@
     content: " · ";
   }
 
+  /* Fix for lightbox overlay clipping the breakout gallery */
+  body.glightbox-open,
+  body.glightbox-open main,
+  body.glightbox-open content {
+    overflow: visible !important;
+  }
+
+  .goverlay {
+    background: rgba(0, 0, 0, 0.95) !important;
+  }
+
   /* GLightbox customization */
   .gslide-description {
     background: transparent !important;
@@ -121,6 +131,19 @@
     font-family: var(--font-secondary) !important;
     font-size: 0.9rem !important;
     color: rgba(255, 255, 255, 0.85) !important;
+  }
+
+  /* Mobile: move description below image */
+  @media (max-width: 768px) {
+    .gslide-media {
+      max-height: 70vh !important;
+    }
+
+    .gslide-description {
+      position: relative !important;
+      bottom: auto !important;
+      margin-top: 1rem !important;
+    }
   }
 </style>
 
