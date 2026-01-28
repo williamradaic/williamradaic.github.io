@@ -133,16 +133,19 @@
     color: rgba(255, 255, 255, 0.85) !important;
   }
 
-  /* Mobile: move description below image */
+  /* Mobile: position description at bottom overlay instead of below */
   @media (max-width: 768px) {
     .gslide-media {
-      max-height: 70vh !important;
+      max-height: 100vh !important;
     }
 
     .gslide-description {
-      position: relative !important;
-      bottom: auto !important;
-      margin-top: 1rem !important;
+      position: absolute !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)) !important;
+      padding-top: 3rem !important;
     }
   }
 </style>
