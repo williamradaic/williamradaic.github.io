@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on William Radaic</title>
-    <link>http://localhost:59261/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on William Radaic</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:59261/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Favorite Papers</title>
-      <link>http://localhost:59261/posts/favorite-papers/</link>
+      <link>http://localhost:1313/posts/favorite-papers/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59261/posts/favorite-papers/</guid>
+      <guid>http://localhost:1313/posts/favorite-papers/</guid>
       <description>&lt;p&gt;This is a running list of my favorite papers in Economics and adjacent fields.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fujiwara, Thomas. 2015. &lt;a href=&#34;https://doi.org/10.3982/ECTA11520&#34;&gt;&amp;ldquo;Voting Technology, Political Responsiveness, and Infant Health: Evidence from Brazil.&amp;rdquo;&lt;/a&gt; &lt;em&gt;Econometrica&lt;/em&gt; 83 (2): 423–464.&lt;/li&gt;&#xA;&lt;li&gt;Hayek, Friedrich A. 1945. &lt;a href=&#34;https://www.jstor.org/stable/1809376&#34;&gt;&amp;ldquo;The Use of Knowledge in Society.&amp;rdquo;&lt;/a&gt; &lt;em&gt;American Economic Review&lt;/em&gt; 35 (4): 519–530.&lt;/li&gt;&#xA;&lt;li&gt;Stigler, George J., and Gary S. Becker. 1977. &lt;a href=&#34;https://www.jstor.org/stable/1807222&#34;&gt;&amp;ldquo;De Gustibus Non Est Disputandum.&amp;rdquo;&lt;/a&gt; &lt;em&gt;American Economic Review&lt;/em&gt; 67 (2): 76–90.&lt;/li&gt;&#xA;&lt;li&gt;Thaler, Richard. 1980. &lt;a href=&#34;https://doi.org/10.1016/0167-2681(80)90051-7&#34;&gt;&amp;ldquo;Toward a Positive Theory of Consumer Choice.&amp;rdquo;&lt;/a&gt; &lt;em&gt;Journal of Economic Behavior &amp;amp; Organization&lt;/em&gt; 1 (1): 39–60.&lt;/li&gt;&#xA;&lt;li&gt;Kőszegi, Botond, and Matthew Rabin. 2006. &lt;a href=&#34;https://doi.org/10.1093/qje/121.4.1133&#34;&gt;&amp;ldquo;A Model of Reference-Dependent Preferences.&amp;rdquo;&lt;/a&gt; &lt;em&gt;Quarterly Journal of Economics&lt;/em&gt; 121 (4): 1133–1165.&lt;/li&gt;&#xA;&lt;li&gt;Bursztyn, Leonardo, Alessandra L. González, and David Yanagizawa-Drott. 2020. &lt;a href=&#34;https://doi.org/10.1257/aer.20180975&#34;&gt;&amp;ldquo;Misperceived Social Norms: Women Working Outside the Home in Saudi Arabia.&amp;rdquo;&lt;/a&gt; &lt;em&gt;American Economic Review&lt;/em&gt; 110 (10): 2997–3029.&lt;/li&gt;&#xA;&lt;li&gt;Eyster, Erik, and Matthew Rabin. 2005. &lt;a href=&#34;https://doi.org/10.1111/j.1468-0262.2005.00631.x&#34;&gt;&amp;ldquo;Cursed Equilibrium.&amp;rdquo;&lt;/a&gt; &lt;em&gt;Econometrica&lt;/em&gt; 73 (5): 1623–1672.&lt;/li&gt;&#xA;&lt;li&gt;O’Donoghue, Ted, and Matthew Rabin. 1999. &lt;a href=&#34;https://doi.org/10.1257/aer.89.1.103&#34;&gt;“Doing It Now or Later.”&lt;/a&gt; &lt;em&gt;American Economic Review&lt;/em&gt; 89 (1): 103–124.&lt;/li&gt;&#xA;&lt;li&gt;Acemoglu, D., and J. A. Robinson. 2000. &lt;a href=&#34;https://doi.org/10.1162/003355300555042&#34;&gt;“Why Did the West Extend the Franchise? Democracy, Inequality, and Growth in Historical Perspective.”&lt;/a&gt; &lt;em&gt;The Quarterly Journal of Economics 115 (4): 1167–99.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

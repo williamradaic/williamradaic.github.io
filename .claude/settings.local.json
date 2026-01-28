@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(curl:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix mobile lightbox cutting off photos from above\n\nChanged mobile lightbox to overlay caption at bottom instead of\npositioning below image, allowing full viewport height for photos.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "WebFetch(domain:radaic.me)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix favicon by using https baseURL from hugo.toml\n\nThe GitHub Pages action was returning http:// which caused mixed content\nblocking when the site is served over https.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
