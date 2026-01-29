@@ -16,7 +16,7 @@ weight = 3
 /photos/MissionDolores-1.jpeg | Mission Dolores Park | San Francisco | 29 November, 2025
 /photos/MissionDolores-2.jpeg | Mission Dolores Park | San Francisco | 29 November, 2025
 /photos/MissionDolores-3.jpeg | Mission Dolores Park | San Francisco | 29 November, 2025
-/photos/ViewPRoomBay-1.jpeg | A View to the Bay | Evans Hall, UC Berkeley | 15 August, 2025
+/photos/ViewPRoomBay-1.jpeg | A View of the Bay | Evans Hall, UC Berkeley | 15 August, 2025
 /photos/BerkeleyCampanile-2025-08-25.JPG | Sather Tower | UC Berkeley | 6 August, 2025
 /photos/WidenerSide-2025-05-08.JPG | Widener Library | Harvard Yard | May 8, 2025
 /photos/LeavingLittauer-2025-05-07.JPG | Leaving Littauer Center | Harvard | May 7, 2025
