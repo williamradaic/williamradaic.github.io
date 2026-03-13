@@ -163,12 +163,12 @@
         {{ $location := trim (index $parts 2) " " }}
         {{ $date := trim (index $parts 3) " " }}
         <div class="gallery-item">
-          <a href="{{ $path }}"
+          <a href="{{ $path | relURL }}"
              class="glightbox"
              data-gallery="photos"
              data-title="{{ $title }}"
              data-description="{{ $location }} · {{ $date }}">
-            <img src="{{ $path }}" alt="{{ $title }}" loading="lazy">
+            <img src="{{ $path | relURL }}" alt="{{ $title }}" loading="lazy">
             <div class="caption">
               <div class="title">{{ $title }}</div>
               <div class="meta">

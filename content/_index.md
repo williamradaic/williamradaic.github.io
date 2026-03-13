@@ -18,9 +18,9 @@ You can reach me via email at {{< mail >}}
 
 
 <!--right-->
-<p><img src="/images/profile.jpg" style="width: 100%; border-radius: 0.5rem;" /></p>
+<p><img src="images/profile.jpg" style="width: 100%; border-radius: 0.5rem;" /></p>
 
 
 
-<!--![Profile photo](/images/profile.jpg)-->
+<!--![Profile photo](images/profile.jpg)-->
 {{< /twocol >}}
