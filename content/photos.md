@@ -4,7 +4,31 @@ menu = "main"
 weight = 3
 +++
 
+<style>
+.fancy-hr {
+  border: none;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+.fancy-hr::before {
+  content: "❋";
+  letter-spacing: 1rem;
+  opacity: 0.5;
+}
+</style>
+
 # Some of my photos
+
+
+
+I have been taking pictures as a hobby since I was about 14. First, with my parents' old camera, then a Nikon D3200, then a D7100, now a Fuji XT-5, and always with whatever phone I had. Prime lenses rule -- just zoom with your feet!
+
+<hr class="fancy-hr">
+
+
+
+
+
 
 {{< gallery >}}
 
