@@ -21,7 +21,7 @@ weight = 3
 
 
 
-I have been taking pictures as a hobby since I was about 14. First, with my parents' old camera, then a Nikon D3200, then a D7100, now a Fuji XT-5, and always with whatever phone I had. Prime lenses rule -- just zoom with your feet!
+I have been taking pictures as a hobby since I was a kid. First, with my dad's Sony Mavica (a floppy-disk-based early digital camera), then a Nikon D3200, then a D7100, now a Fuji XT-5, and always with whatever phone I have.
 
 <hr class="fancy-hr">
 
@@ -32,6 +32,14 @@ I have been taking pictures as a hobby since I was about 14. First, with my pare
 
 {{< gallery >}}
 
+photos/dubrovnik-walls.jpg | Dubrovnik Walls | Dubrovnik, Croatia | 20 June, 2026
+photos/dubrovnik-lokrum.jpg | Lokrum → Dubrovnik | Dubrovnik, Croatia | 20 June, 2026
+photos/lokrum.jpg | Lokrum | Dubrovnik, Croatia | 20 June, 2026
+photos/hvar-boat.jpg | A Boat in Hvar | Hvar, Croatia | 18 June, 2026
+photos/hvar-castle1.jpg | Hvar Fortress | Hvar, Croatia | 17 June, 2026
+photos/hvar-castle2.jpg | Hvar Fortress | Hvar, Croatia | 17 June, 2026
+photos/plitvice.jpg | Plitvice Lakes | Croatia | 13 June, 2026
+photos/slovenia-castle.jpg | Ljubljana Castle | Ljubljana, Slovenia | 11 June, 2026
 photos/FireTrail-1.jpeg | Fire Trails | Berkeley | 19 January, 2026
 photos/FireTrail-2.jpeg | Fire Trails | Berkeley | 19 January, 2026
 photos/FireTrail-3.jpeg | Fire Trails | Berkeley | 19 January, 2026
@@ -42,10 +50,10 @@ photos/MissionDolores-2.jpeg | Mission Dolores Park | San Francisco | 29 Novembe
 photos/MissionDolores-3.jpeg | Mission Dolores Park | San Francisco | 29 November, 2025
 photos/ViewPRoomBay-1.jpeg | A View of the Bay | Evans Hall, UC Berkeley | 15 August, 2025
 photos/BerkeleyCampanile-2025-08-25.JPG | Sather Tower | UC Berkeley | 6 August, 2025
-photos/WidenerSide-2025-05-08.JPG | Widener Library | Harvard Yard | May 8, 2025
-photos/LeavingLittauer-2025-05-07.JPG | Leaving Littauer Center | Harvard | May 7, 2025
-photos/Voringfossen-Jun2025.JPG | Vøringfossen | Norway | June 2, 2024
-photos/Voringfossen-2.jpeg | Vøringfossen | Norway | June 2, 2024
+photos/WidenerSide-2025-05-08.JPG | Widener Library | Harvard Yard | 8 May, 2025
+photos/LeavingLittauer-2025-05-07.JPG | Leaving Littauer Center | Harvard | 7 May, 2025
+photos/Voringfossen-Jun2025.JPG | Vøringfossen | Norway | 2 June, 2024
+photos/Voringfossen-2.jpeg | Vøringfossen | Norway | 2 June, 2024
 
 
 {{< /gallery >}}
